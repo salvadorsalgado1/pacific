@@ -87,10 +87,16 @@ align-items:center;
       display:flex;
       justify-content:center;
       align-items:center;
+      padding-bottom:50px;
 }
 
 .Fourth div{
-    display:flex;
+    
 justify-content:center;
 align-items:center;
 }
+
+.Fourth i{
+    color:gray;
+}
+
