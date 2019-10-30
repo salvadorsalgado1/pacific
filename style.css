@@ -87,7 +87,7 @@ align-items:center;
       display:flex;
       justify-content:center;
       align-items:center;
-      padding-bottom:50px;
+      padding-bottom:51px;
 }
 
 .Fourth div{
@@ -97,7 +97,8 @@ align-items:center;
 }
 
 .Fourth i{
+
     color:gray;
-    
+
 }
 
