@@ -31,11 +31,13 @@ justify-content:center;
 align-items:center;
 }
 
-
+.card
+{
+    box-shadow:5px 10px 20px black;
+}
 
 .Second
 {
-    padding-bottom:100px;
     padding-top:100px;
     background-color:rgb(236, 233, 233);
       background-size:auto;
@@ -47,7 +49,7 @@ align-items:center;
       display:flex;
       justify-content:center;
       align-items:center;
-   
+   padding-bottom:100px;
 }
 
 .Second div{
@@ -57,34 +59,38 @@ align-items:center;
 }
 .Third
 {
-  padding-top:100px;
+    padding-top:100px;
   background-image: url("images/table.jpg");
-    background-size:auto;
-    
-    
+    background-size:cover;
        background-position:center center;
        background-repeat:no-repeat;
-    
     display:flex;
     justify-content:center;
     align-items:center;
-  
+ 
 }
 
 .Third div{
+    
     display:flex;
 justify-content:center;
 align-items:center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
+.Fourth
+{
+    padding-top:100px;
+    background-image: url("images/table.jpg");
+      background-size:cover;
+         background-position:center center;
+         background-repeat:no-repeat;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+}
+
+.Fourth div{
+    display:flex;
+justify-content:center;
+align-items:center;
 }

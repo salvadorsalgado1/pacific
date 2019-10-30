@@ -1,8 +1,8 @@
 <DOCTYPE html!>
 <html>
 <head>
-   <meta name = "viewport" content="width=device-width, initial-scale=1">
-
+    <link href = "https://fonts.googleapis.com/css?family=Robot+Condensed:400,700" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type:"text/css">
 </head>
@@ -25,18 +25,20 @@
   <div class = "collapse navbar-collapse" id = "collapseToggle">
       <ul class = "navbar-nav ml-auto">
           <li class = "navbar-item">
-              <a href = "#" class = "nav-link lead">Home</a>
+              <a href = "#Home" class = "nav-link lead">Home</a>
           </li>
           <li class = "navbar-item">
-            <a href = "#" class = "nav-link lead">Menu</a>
+            <a href = "#AboutUs" class = "nav-link lead">About Us</a>
         </li>
         <li class = "navbar-item">
-            <a href = "#" class = "nav-link lead">Events</a>
+            <a href = "#OurFood" class = "nav-link lead">Our Food</a>
         </li>
         <li class = "navbar-item">
             <a href = "#" class = "nav-link lead">Gallery</a>
         </li>
-
+        <li class = "navbar-item">
+            <a href = "#" class = "nav-link lead">Menu</a>
+        </li>
         <li class = "navbar-item">
             <a href = "#" class = "nav-link lead">Contact</a>
         </li>
@@ -45,10 +47,10 @@
 </nav>
 
 
-    <div class = "First">
+    <div class = "First" id = "Home">
         <div class = "container">
             <div class = "row">
-                <div class = "col-12">
+                <div class = "col-xl-12 col-lg-10 col-md-10 col-sm-8 col-xs-6">
                     <div class = "card">
                             <div class = "card-body">
                                 <div class = "card-img"></div>
@@ -56,23 +58,26 @@
                                 <div class = "card-img-overlay"></div>
                             </div>
                     </div>
+                </div>
             </div>
-    
-  
-       
-                
-            </div>
+        </div>
     </div>
-   
+    <!--
+
+.fa-cc-visa
+.fa-cc-mastercard
+.fa-cc-discover
+.fa-cc-amex
+.fa-address-card
+.fa-address-card-o
+.fa-grav
 
 
-
-</div>
-
-<div class = "Second">
+    -->
+<div class = "Second" id="AboutUs">
 <div class = "container">
     <div class = "row">
-        <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+        <div class = "col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class = "card">
                 <div class = "card-body">
                     <img class = "card-img img-responsive rounded-circle " src = "images/portrait.jpg">
@@ -80,10 +85,18 @@
                 </div>
             </div>
         </div>
-        <div class = "col-lg-4 col-md-4 col-sm-12">
+        <div class = "col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class = "card">
                     <div class = "card-body">
-                      <p class = "lead card-text">About the Owner!n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      <p class = "lead card-text justify-content-center text-center">
+                          
+                            <i class="fa fa-grav fa-5x"></i>
+                        <br>
+                        <br>
+                        About the Owner!  
+                        <br>
+                          <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Proin venenatis sit amet risus ultrices consequat. Donec at elit id justo posuere maximus eget a lacus. 
                             Morbi dignissim arcu ut aliquam sollicitudin. Aliquam tempor dui sed lacus pellentesque blandit. 
                             Curabitur in euismod tortor. 
@@ -100,11 +113,14 @@
 
 </div>
 
-<div class = "Third">
+<div class = "Third" id = "OurFood">
+
+
+
 
     <div class = "container">
         <div class = "row">
-                <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class = "card">
                                 <img class = "card-img" src= "images/profile.jpg">
                              
@@ -120,11 +136,8 @@
                                    Proin venenatis sit amet risus ultrices consequat. Donec at elit id justo posuere maximus eget a lacus. 
                                    Morbi dignissim arcu ut aliquam sollicitudin. Aliquam tempor dui sed lacus pellentesque blandit. 
                                    Curabitur in euismod tortor. 
-                                   Aenean semper ligula quis enim maximus sagittis. 
-                                   Suspendisse nec ex hendrerit, tempus purus nec, pulvinar tortor. 
-                                   Nulla faucibus felis magna, at lobortis magna aliquet ac. Praesent et dictum tortor. 
-                                   Etiam fringilla turpis nec urna suscipit luctus. Curabitur euismod eros ut est facilisis, 
-                                   sed finibus nulla fermentum.
+                                  
+                        
 
                             </p>
 
@@ -132,7 +145,7 @@
                             </div>
                         </div>
                 </div>
-                <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class = "card">
                                 <img class = "card-img" src= "images/plate.jpg">
                                 <div class = "card-img"></div>
@@ -152,7 +165,7 @@
                             </div>
                         </div>
                 </div>
-                <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class = "card">
                                 <img class = "card-img" src= "images/empan.jpg">
                                 <div class = "card-img"></div>
@@ -172,11 +185,92 @@
                             </div>
                         </div>
                 </div>
+                <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class = "card">
+                            <img class = "card-img" src= "images/fruit.jpg">
+                            <div class = "card-img"></div>
+                            
+                            <div class = "card-img-overlay"></div>
+                        <div class = "card-body">
+                               
+                           <p class = " card-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                               Proin venenatis sit amet risus ultrices consequat. Donec at elit id justo posuere maximus eget a lacus. 
+                               Morbi dignissim arcu ut aliquam sollicitudin. Aliquam tempor dui sed lacus pellentesque blandit. 
+                               Curabitur in euismod tortor. 
+                            
+
+                        </p>
+
+                          
+                        </div>
+                    </div>
+            </div>
+           
+                <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class = "card">
+                            <img class = "card-img" src= "images/fries.jpg">
+                            <div class = "card-img"></div>
+                            
+                            <div class = "card-img-overlay"></div>
+                        <div class = "card-body">
+                               
+                           <p class = " card-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                               Proin venenatis sit amet risus ultrices consequat. Donec at elit id justo posuere maximus eget a lacus. 
+                               Morbi dignissim arcu ut aliquam sollicitudin. Aliquam tempor dui sed lacus pellentesque blandit. 
+                               Curabitur in euismod tortor. 
+                            
+
+                        </p>
+
+                          
+                        </div>
+                    </div>
+            </div>
+            <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class = "card">
+                        <img class = "card-img" src= "images/powder.jpg">
+                        <div class = "card-img"></div>
+                        
+                        <div class = "card-img-overlay"></div>
+                    <div class = "card-body">
+                           
+                       <p class = " card-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                           Proin venenatis sit amet risus ultrices consequat. Donec at elit id justo posuere maximus eget a lacus. 
+                           Morbi dignissim arcu ut aliquam sollicitudin. Aliquam tempor dui sed lacus pellentesque blandit. 
+                           Curabitur in euismod tortor. 
+                        
+
+                    </p>
+
+                      
+                    </div>
+                </div>
+        </div>
+       
+           
                
         </div>
     </div>
 
 </div>
+    <div class = "Fourth">
+        <div class = "email">
+            <p>Contact Us For Catering Events!</p>
+            <form class = "contact-form" action = "contactform.php" method  = "post">
+                <input type = "text" name = "name" placeholder="Full name">
+                <input type = "text" name = "mail" placeholder="Your Email">
+                <input type = "text" name = "subject" placeholder = "subject">
+                <textarea name = "message" placeholder = "Message"></textarea>
+                <button type = "submit" name = "submit">Send Mail</button>
+
+
+            </form>
+        </div>
+
+
+
+        
+    </div>
 
 <div>
 
@@ -185,7 +279,7 @@
 
 
 
-
+        <script src="https://matthewelsom.com/assets/js/libs/instafeed.min.js"></script>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
