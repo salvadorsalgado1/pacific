@@ -101,4 +101,26 @@ align-items:center;
     color:gray;
 
 }
+.Footer i{
+   color:white;
+
+  
+  
+}
+.Footer p{
+    color:white;
+}
+
+.Footer
+{
+    padding-top:25px;
+  
+    background-color:rgb(51, 53, 53);
+    display:flex;
+   justify-content: center;
+    align-items:center;
+    
+    
+   
+}
 
